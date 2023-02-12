@@ -1,0 +1,55 @@
+1665560140311	geckodriver	INFO	Listening on 127.0.0.1:54169
+1665560143374	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54170" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Sami\\AppData\\Local\\Temp\\rust_mozprofileXAJ51d"
+1665560143610	Marionette	INFO	Marionette enabled
+1665560143615	Marionette	INFO	Listening on port 54180
+WebDriver BiDi listening on ws://127.0.0.1:54170
+Read port: 54180
+1665560143861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sami\\AppData\\Local\\Temp\\rust_mozprofileXAJ51d\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54170/devtools/browser/03ff9e63-2e45-4854-96f0-d74842f0507d
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w6h4K76M0GEKzD-R2ifh2JqGy3BJ_UFGqDPwUYwRLsM.js line 2 > eval line 5846 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1665560268452	Marionette	INFO	Stopped listening on port 54180
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Di listening on ws://127.0.0.1:54439
+Read port: 54449
+1665560217519	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sami\\AppData\\Local\\Temp\\rust_mozprofilemx5uol\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54439/devtools/browser/38a83d00-e569-4a81-9c3b-1aaf3bd044c8
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1665560273107	Marionette	INFO	Stopped listening on port 54449
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665560539184	geckodriver	INFO	Listening on 127.0.0.1:54556
+1665560542231	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54557" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Sami\\AppData\\Local\\Temp\\rust_mozprofilemX5Xon"
+1665560542463	Marionette	INFO	Marionette enabled
+1665560542467	Marionette	INFO	Listening on port 54566
+WebDriver BiDi listening on ws://127.0.0.1:54557
+Read port: 54566
+1665560542940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Sami\\AppData\\Local\\Temp\\rust_mozprofilemX5Xon\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54557/devtools/browser/62922509-464a-4747-a47d-26465bda5dce
+SourceActor threw an exception: [Exception... "Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 699"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:699:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:543:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2150:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:298:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:71:24
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data/resources.js:9:23
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:535:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:444:21
+Line: 699, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 699: Failed to open input source 'chrome://browser/content/certerror/aboutNetErrorCodes.js'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1665562359567	Marionette	INFO	Stopped listening on port 54566
+[Parent 3864, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
